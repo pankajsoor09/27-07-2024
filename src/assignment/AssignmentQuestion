@@ -1,0 +1,39 @@
+1.	Create a class Book which describes its Book_title and Book_price. Use getter and setter methods to get & set the Books description. 
+
+Implement createBooks and showBooks methods to create n objects of Book in an array.  Display the books along with its description as follows:-
+
+Book Title			Price
+	Java Programming		Rs.350.50
+	Let Us C			    Rs.200.00
+
+Note: createBooks & showBooks should not be member functions of Book class.
+
+
+2.	Write a program that accepts two numbers from the Command Line and prints them out. Then use a for loop to print the next 13 numbers in the sequence where each number is the sum of the previous two. For example:
+	input> java prob2 1 3
+	output> 1 3 4 7 11 18 29 47 76 123 322 521 843 1364
+
+3.	Write a program that accepts two numbers in the range from 1 to 40 from the Command Line. It then compares these numbers against a single dimension array of five integer elements ranging in value from 1 to 40. The program displays the message BINGO if the two inputted values are found in the array element. For example:
+	input>java prob3 3 29
+	output>Your first number was 3
+	       Your second number was 29
+		Its Bingo! // this message if 3 and 29 is found in the array
+		Not Found! // this message if 3 and 29 is not found in the array
+		The array was 7 25 5 19 30
+
+4.	Write a program that allows you to create an integer array of 18 elements with the following values: int A[]={3,2,4,5,6,4,5,7,3,2,3,4,7,1,2,0,0,0}. The program computes the sum of element 0 to 14 and stores it at element 15, computes the average and stores it at element 16 and identifies the smallest value from the array and stores it at element 17.
+
+5. Create a class called complex for performing arithmetic operations with complex numbers. Use floating point variables to represent the private data of the class. Provide a default constructor that initializes the object with some default values. Provide public member functions for each of the following
+	• Addition of two complex numbers: It returns the result obtained by adding the respective real parts and the imaginary parts of the two complex numbers.
+	• Subtraction of two complex numbers: It returns the result obtained by subtracting the respective real parts and the imaginary parts of the two complex numbers.
+	• display() – It displays the complex number in a+bi format.
+The output should be displayed as follows:-	
+Sum of  a1+b1 i   &   a2+b2 i     is  :  a3+b3 i
+
+6. Write a program to take String from command line, display the length of the string. Also display the string into uppercase and lower case and check whether it is a palindrome or not using reverse method of StringBuffer/StringBuilder. (Refer Java API Documentation)
+
+
+
+
+
+
